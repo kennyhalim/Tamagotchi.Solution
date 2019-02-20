@@ -52,6 +52,9 @@ namespace Tamagotchi.Models
       } else {
         _food = _food + 5;
       }
+      if(_food >= 1 && _rest >= 1 && _attention > 1){
+        _isAlive = true;
+      }
       return _food;
     }
 
@@ -67,6 +70,9 @@ namespace Tamagotchi.Models
       } else {
         _attention = _attention + 5;
       }
+      if(_food >= 1 && _rest >= 1 && _attention > 1){
+        _isAlive = true;
+      }
       return _attention;
     }
 
@@ -77,10 +83,14 @@ namespace Tamagotchi.Models
 
     public int AddRest()
     {
+
       if(_rest >= 100){
         _rest = 100;
       } else {
         _rest = _rest + 5;
+      }
+      if(_food > 1 && _rest >= 1 && _attention > 1){
+        _isAlive = true;
       }
       return _rest;
     }
@@ -94,7 +104,15 @@ namespace Tamagotchi.Models
       _food = _food - 10;
       _rest = _rest - 10;
       _attention = _attention - 10;
-    }
+      _isAlive = true;
+      }
+      if(_food <= 0 || _rest <= 0 || _attention <= 0)
+        {
+          _isAlive = false;
+          _food = 0;
+          _rest = 0;
+          _attention = 0;
+        }
     }
 
     public void Delete(int id){
