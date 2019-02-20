@@ -10,8 +10,10 @@ namespace Tamagotchi.Controllers
     [HttpGet("/tamagotchi")]
     public ActionResult Index()
     {
+
       List<Pet> allPets = Pet.GetAll();
       return View(allPets);
+
     }
 
     [HttpGet("/tamagotchi/new")]
@@ -25,6 +27,7 @@ namespace Tamagotchi.Controllers
     {
         Pet myPet = new Pet(name, 70, 70, 70);
         return RedirectToAction("Index");
+
     }
 
     [HttpGet("/tamagotchi/{id}")]

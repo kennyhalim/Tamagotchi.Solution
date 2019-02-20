@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 
+
 namespace Tamagotchi.Models
 {
   public class Pet
@@ -10,6 +11,7 @@ namespace Tamagotchi.Models
     private int _rest;
     private static List<Pet> _petList  = new List<Pet> {};
     private int _id;
+    private bool _isAlive;
 
     public Pet (string name, int food, int attention, int rest)
     {
@@ -19,6 +21,18 @@ namespace Tamagotchi.Models
       _rest = rest;
       _petList.Add(this);
       _id = _petList.Count;
+      _isAlive = true;
+    }
+
+    public string isAlive()
+    {
+      if(_isAlive == true)
+      {
+        return "Alive";
+      }else
+      {
+        return "Dead";
+      }
     }
 
     public string GetName()
