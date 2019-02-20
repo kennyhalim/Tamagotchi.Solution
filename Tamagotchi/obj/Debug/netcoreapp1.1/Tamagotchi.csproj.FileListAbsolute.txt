@@ -1,0 +1,9 @@
+/Users/Guest/Desktop/Tamagotchi.Solution/Tamagotchi/bin/Debug/netcoreapp1.1/Tamagotchi.deps.json
+/Users/Guest/Desktop/Tamagotchi.Solution/Tamagotchi/bin/Debug/netcoreapp1.1/Tamagotchi.runtimeconfig.json
+/Users/Guest/Desktop/Tamagotchi.Solution/Tamagotchi/bin/Debug/netcoreapp1.1/Tamagotchi.runtimeconfig.dev.json
+/Users/Guest/Desktop/Tamagotchi.Solution/Tamagotchi/obj/Debug/netcoreapp1.1/Tamagotchi.csproj.CoreCompileInputs.cache
+/Users/Guest/Desktop/Tamagotchi.Solution/Tamagotchi/obj/Debug/netcoreapp1.1/Tamagotchi.AssemblyInfo.cs
+/Users/Guest/Desktop/Tamagotchi.Solution/Tamagotchi/bin/Debug/netcoreapp1.1/Tamagotchi.dll
+/Users/Guest/Desktop/Tamagotchi.Solution/Tamagotchi/bin/Debug/netcoreapp1.1/Tamagotchi.pdb
+/Users/Guest/Desktop/Tamagotchi.Solution/Tamagotchi/obj/Debug/netcoreapp1.1/Tamagotchi.dll
+/Users/Guest/Desktop/Tamagotchi.Solution/Tamagotchi/obj/Debug/netcoreapp1.1/Tamagotchi.pdb
